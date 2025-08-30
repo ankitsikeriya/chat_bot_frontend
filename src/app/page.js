@@ -70,7 +70,7 @@ export default function App() {
         <div className="flex-none text-center pt-8 pb-4">
           <p className="text-gray-400">
             <span className="text-[#ff7e5f] mr-2 text-2xl">•</span>
-            Hello , I'm a Real time Chat Bot! Who fetches and analyzes information using LLM powered with websearch using Tavily API.
+  {`Hello , I'm a Real time Chat Bot! Who fetches and analyzes information using LLM powered with websearch using Tavily API.`}
           </p>
         </div>
 
