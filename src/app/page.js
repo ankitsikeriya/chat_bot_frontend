@@ -26,7 +26,7 @@ export default function App() {
 
     try {
       // API call to the backend
-      const response = await fetch('/chat', {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/chat`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
