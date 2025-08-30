@@ -26,7 +26,7 @@ export default function App() {
 
     try {
       // API call to the backend
-      const response = await fetch('http://localhost:3080/chat', {
+      const response = await fetch('/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
