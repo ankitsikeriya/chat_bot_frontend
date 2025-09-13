@@ -4,7 +4,7 @@ export default function App() {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  const messagesEndRef = useRef(null);
+  const messagesEndRef = useRef(null); 
 
   // This function scrolls the chat to the bottom on new messages.
   const scrollToBottom = () => {
